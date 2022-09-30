@@ -9,3 +9,81 @@ print(1<=5)
 print(6==6)
 
 print("Hello Word!")
+
+st1="Cisco"
+st2="Networking"
+st3="Academy"
+space=' '
+print(st1+space+st2+space+st3)
+print("\n"*2)
+print(st1+st2+st3)
+print("\n"*2)
+print(st1,st2,st3)
+
+LIST=[5,6,"NODO",True,5]
+print(type(LIST))
+print(len(LIST))
+print(LIST)
+print(LIST[0])
+
+tupla=(5,6.5,"NODO",True,5)
+print("\n"*2)
+print(tupla[2])
+print(LIST[-4])
+
+dic1={"R1":"198.15.1",
+     "R2":"11.2.3",
+     511:"HOLA MUNDO",
+     "EMAIL":"matt-josue@hotmail.com"}
+print("R1" in dic1)
+print("\n"*2)
+dic1["S1"]="11.0.0.1"
+print(dic1)
+
+======EJERCICIO EN CLASE==========
+# Create a list of the BRICS countries
+country = [ 
+            "Brazil", 
+            "Russia", 
+            "India", 
+            "China", 
+            "South Africa"
+          ]
+
+"""Create a dictionary of BRICS capitals.
+Note that South Africa has 3
+ capitals. Therefore, we embed a list inside
+the dictionary.
+"""
+
+capitals = {
+    "Brazil": "Brasilia",
+    "Russia": "Moscow",
+    "India": "New Delhi",
+    "China": "Beijing",
+    "South Africa": [
+                        "Pretoria",
+                        "Cape Town",
+                        "Bloemfontein"
+                    ]
+           }
+
+# Print the list and dictionary
+print(country)
+print("\n")
+print(capitals)
+print("\n")
+"""
+What response did you get?
+Why did the list and dictionary
+ contents not print?
+Fix the code and run the script again.
+"""
+
+print( capitals["South Africa"][1] )
+"""
+Why did you get an error for the
+ 2nd capital of South Africa?
+Hint: Check the syntax for the 
+index value.
+"""
