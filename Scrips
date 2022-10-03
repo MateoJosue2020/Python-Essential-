@@ -9,6 +9,15 @@ print(1<=5)
 print(6==6)
 
 print("Hello Word!")
+#TIPO DE VARIABLES
+type(98)
+type(98.6)
+type("Hi!")
+type(True)
+pi=22/7
+print(pi)
+print("{:.2f}".format(pi))
+
 
 st1="Cisco"
 st2="Networking"
